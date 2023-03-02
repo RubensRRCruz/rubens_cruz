@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Organização de Casamentos</title>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<!-- Inclua aqui a barra de menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Rubens Cruz comércio geral e <br> prestação de serviços. SU, Lda</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Serviços
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Decoração</a>
+                    <a class="dropdown-item" href="#">Buffet</a>
+                    <a class="dropdown-item" href="#">Fotografia e Vídeo</a>
+                    <a class="dropdown-item" href="#">Criação de Convites</a>
+                    <a class="dropdown-item" href="#">Serviços de Garçons e Protocolo</a>
+                    <a class="dropdown-item" href="#">DJ e Luzes</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Loja</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contato</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              </form>
+            </div>
+          </nav>
+          
+	</header>
+	
+	<main>
+		<section id="intro">
+			<!-- Inclua aqui o banner de introdução -->
+            <section id="banner">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h1>Bem-vindo à nossa empresa de casamentos</h1>
+                      <p>Nós cuidamos de todos os detalhes para tornar o seu dia especial inesquecível</p>
+                      <a href="#servicos" class="btn btn-primary">Nossos Serviços</a>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="/img/R.png" alt="Imagem do banner">
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+		</section>
+		
+		<section id="services">
+			<!-- Inclua aqui a seção de serviços em carrossel -->
+            <section id="services" class="section-services">
+                <div class="container">
+                  <h2 class="section-title text-center mb-5">Nossos Serviços</h2>
+                  <div id="service-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#service-carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#service-carousel" data-slide-to="1"></li>
+                      <li data-target="#service-carousel" data-slide-to="2"></li>
+                      <li data-target="#service-carousel" data-slide-to="3"></li>
+                      <li data-target="#service-carousel" data-slide-to="4"></li>
+                      <li data-target="#service-carousel" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="service-item">
+                              <div class="service-icon">
+                                <i class="fas fa-camera"></i>
+                              </div>
+                              <h3 class="service-title">Fotografia e Vídeo</h3>
+                              <p class="service-desc">Capturamos os melhores momentos do seu casamento com qualidade e criatividade. Oferecemos pacotes de fotografia e vídeo com edição profissional e entrega em mídia digital.</p>
+                              <a href="#" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="service-item">
+                              <div class="service-icon">
+                                <i class="fas fa-utensils"></i>
+                              </div>
+                              <h3 class="service-title">Buffet</h3>
+                              <p class="service-desc">Oferecemos um menu variado para agradar a todos os paladares. Nossa equipe de chefs e garçons é treinada para atender a qualquer tipo de evento e deixar seus convidados satisfeitos.</p>
+                              <a href="#" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="service-item">
+                              <div class="service-icon">
+                                <i class="fas fa-magic"></i>
+                              </div>
+                              <h3 class="service-title">Decoração</h3>
+                              <p class="service-desc">Criamos uma decoração personalizada para o seu casamento, com flores, velas e outros elementos que combinam com o estilo do evento. Também oferecemos opções de cenários para a cerimônia e a festa.</p>
+                              <a href="#" class="btn btn-primary">Ver Mais</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="service-item">
+                              <div class="service-icon">
+                                <i class="fas fa-envelope-open-text"></i>
+                              </div>
+                              <h3 class="service-title">Criação de Convites</h3>
+                              <p class="service-desc">Criamos convites personalizados que refletem a personalidade do casal e combinam com atemática da festa. Trabalhamos com diversos materiais e acabamentos para garantir que o convite seja especial e único.</p>
+                              <a href="#" class="btn btn-primary">Ver Mais</a>
+                              </div>
+                              </div>
+                              <div class="col-md-4">
+                              <div class="service-item">
+                              <div class="service-icon">
+                              <i class="fas fa-music"></i>
+                              </div>
+                              <h3 class="service-title">Música e Entretenimento</h3>
+                              <p class="service-desc">Contamos com uma equipe de DJs, músicos e artistas para animar sua festa e garantir que todos se divirtam. Oferecemos diferentes opções de música e entretenimento para atender a todos os gostos.</p>
+                              <a href="#" class="btn btn-primary">Ver Mais</a>
+                              </div>
+                              </div>
+                              <div class="col-md-4">
+                              <div class="service-item">
+                              <div class="service-icon">
+                              <i class="fas fa-birthday-cake"></i>
+                              </div>
+                              <h3 class="service-title">Salão de Festas</h3>
+                              <p class="service-desc">Nosso salão de festas é amplo e confortável, com capacidade para até 300 pessoas. Oferecemos serviços de decoração, buffet e música para que você possa realizar sua festa em um só lugar.</p>
+                              <a href="#" class="btn btn-primary">Ver Mais</a>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#service-carousel" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#service-carousel" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                              </a>
+                              </div>
+                              
+                                </div>
+                              </section>
+              
+			<!-- Inclua aqui a seção dividida em colunas para cada serviço -->
+		</section>
+		
+		<section id="testimonials">
+			<!-- Inclua aqui os depoimentos de clientes satisfeitos -->
+            <section id="testimonials" class="section-testimonials">
+                <div class="container">
+                  <h2 class="section-title text-center mb-5">Depoimentos</h2>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="testimonial-item">
+                        <div class="testimonial-text">
+                          <p>"Foi incrível trabalhar com a equipe do Salão de Festas. Eles tornaram o meu casamento ainda mais especial do que eu poderia imaginar."</p>
+                        </div>
+                        <div class="testimonial-author">
+                          <div class="testimonial-img">
+                            <img src="https://via.placeholder.com/150x150" alt="Client Image">
+                          </div>
+                          <div class="testimonial-name">
+                            <h4>Juliana Santos</h4>
+                            <span>Noiva</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="testimonial-item">
+                        <div class="testimonial-text">
+                          <p>"O Salão de Festas superou minhas expectativas. A decoração estava linda e a comida deliciosa. Recomendo!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                          <div class="testimonial-img">
+                            <img src="/img/Eiandro 2.png" alt="Client Image">
+                          </div>
+                          <div class="testimonial-name">
+                            <h4>Etiandro P. R. André </h4>
+                            <span>Noivo</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="testimonial-item">
+                        <div class="testimonial-text">
+                          <p>"A equipe do Salão de Festas foi muito profissional e atenciosa. Eles cuidaram de todos os detalhes e tornaram o meu evento um sucesso."</p>
+                        </div>
+                        <div class="testimonial-author">
+                          <div class="testimonial-img">
+                            <img src="https://via.placeholder.com/150x150" alt="Client Image">
+                          </div>
+                          <div class="testimonial-name">
+                            <h4>Carlos Silva</h4>
+                            <span>Aniversariante</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+		</section>
+		
+		<section id="portfolio">
+			<!-- Inclua aqui a galeria de imagens de casamentos anteriores -->
+            <section id="gallery" class="section-gallery">
+                <div class="container">
+                  <h2 class="section-title text-center mb-5">Galeria</h2>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="gallery-item">
+                        <img src="img/gallery/gallery-1.jpg" alt="Casamento 1">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="gallery-item">
+                        <img src="img/gallery/gallery-2.jpg" alt="Casamento 2">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="gallery-item">
+                        <img src="img/gallery/gallery-3.jpg" alt="Casamento 3">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="gallery-item">
+                        <img src="img/gallery/gallery-4.jpg" alt="Casamento 4">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="gallery-item">
+                        <img src="img/gallery/gallery-5.jpg" alt="Casamento 5">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="gallery-item">
+                        <img src="img/gallery/gallery-6.jpg" alt="Casamento 6">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+		</section>
+		
+		<section id="cta">
+			<!-- Inclua aqui o call-to-action para agendar uma consulta ou solicitar um orçamento -->
+            <section id="cta" class="section-cta">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-md-8">
+                      <h2 class="section-title">Agende uma consulta ou solicite um orçamento</h2>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="#" class="btn btn-primary btn-lg btn-block">Entrar em Contato</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+		</section>
+	</main>
+	
+		<!-- Inclua aqui o rodapé com informações de contato e links para redes sociais -->
+        <!-- Rodapé -->
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Contato</h3>
+          <ul>
+            <li><i class="fa fa-map-marker"></i>Avenida Revolução de outubro Nº159 - Luanda - Angola</li>
+            <li><i class="fa fa-phone"></i> (244) 932 896 717</li>
+            <li><i class="fa fa-envelope"></i> rubens_cruz78@outlook.com</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Newsletter</h3>
+          <p>Assine nossa newsletter e receba novidades em seu email.</p>
+          <form action="#" method="post">
+            <input type="email" name="email" placeholder="rubens_cruz78@outlook.com" required>
+            <button type="submit">Inscrever-se</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+		
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- Custom JS -->
+	<script src="script.js"></script>
+</body>
+</html>
